@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: cover;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.video-placeholder {
+    margin: 20px 0;
+}
+
+.video-placeholder button {
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.quote {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+.biography {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.biography h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 1.2em;
+    }
+
+    .biography h2 {
+        font-size: 1.5em;
+    }
+}
